@@ -1,0 +1,25 @@
++ sudo lspci -tv
+-[0000:00]-+-00.0  Intel Corporation 12th Gen Core Processor Host Bridge/DRAM Registers
+           +-01.0-[01-0f]----00.0-[02-0f]--+-00.0-[03-08]----00.0-[04-08]--+-10.0-[05]----00.0  Sandisk Corp WD Black SN770 / PC SN740 256GB / PC SN560 (DRAM-less) NVMe SSD
+           |                               |                               +-14.0-[06]----00.0  Sandisk Corp WD Black SN850X NVMe SSD
+           |                               |                               +-18.0-[07]----00.0  Micron/Crucial Technology P5 Plus NVMe PCIe SSD
+           |                               |                               \-1c.0-[08]----00.0  Solidigm P44 Pro NVMe SSD [Hollywood Beach]
+           |                               +-04.0-[09-0e]----00.0-[0a-0e]--+-00.0-[0b]----00.0  Samsung Electronics Co Ltd NVMe SSD Controller PM9A1/PM9A3/980PRO
+           |                               |                               +-04.0-[0c]----00.0  Samsung Electronics Co Ltd NVMe SSD Controller PM9A1/PM9A3/980PRO
+           |                               |                               +-08.0-[0d]----00.0  Samsung Electronics Co Ltd NVMe SSD Controller PM9A1/PM9A3/980PRO
+           |                               |                               \-0c.0-[0e]----00.0  Samsung Electronics Co Ltd NVMe SSD Controller PM9A1/PM9A3/980PRO
+           |                               \-1c.0-[0f]----00.0  Broadcom / LSI PEX880xx PCIe Gen 4 Switch
+           +-02.0  Intel Corporation AlderLake-S GT1
+           +-04.0  Intel Corporation Alder Lake Innovation Platform Framework Processor Participant
+           +-14.0  Intel Corporation Alder Lake-S PCH USB 3.2 Gen 2x2 XHCI Controller
+           +-14.2  Intel Corporation Alder Lake-S PCH Shared SRAM
+           +-15.0  Intel Corporation Alder Lake-S PCH Serial IO I2C Controller #0
+           +-16.0  Intel Corporation Alder Lake-S PCH HECI Controller #1
+           +-16.3  Intel Corporation Device 7aeb
+           +-17.0  Intel Corporation Alder Lake-S PCH SATA Controller [AHCI Mode]
+           +-1b.0-[10]----00.0  Seagate Technology PLC FireCuda 520/IronWolf 525 SSD
+           +-1f.0  Intel Corporation Device 7a88
+           +-1f.3  Intel Corporation Alder Lake-S HD Audio Controller
+           +-1f.4  Intel Corporation Alder Lake-S PCH SMBus Controller
+           +-1f.5  Intel Corporation Alder Lake-S PCH SPI Controller
+           \-1f.6  Intel Corporation Ethernet Connection (17) I219-LM

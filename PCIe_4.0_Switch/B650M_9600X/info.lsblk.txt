@@ -1,0 +1,10 @@
++ sudo lsblk -d -o NAME,TYPE,MODEL,SIZE /dev/nvme0n1 /dev/nvme1n1 /dev/nvme2n1 /dev/nvme3n1 /dev/nvme4n1 /dev/nvme5n1 /dev/nvme6n1 /dev/nvme7n1
+NAME    TYPE MODEL                           SIZE
+nvme6n1 disk SAMSUNG MZVL2512HCJQ-00BL7    476.9G
+nvme3n1 disk SOLIDIGM SSDPFKKW020X7          1.9T
+nvme4n1 disk SAMSUNG MZVL2512HCJQ-00BL7    476.9G
+nvme7n1 disk SAMSUNG MZVL2512HCJQ-00BL7    476.9G
+nvme5n1 disk SAMSUNG MZVL2512HDJD-00BLL    476.9G
+nvme0n1 disk WD PC SN740 SDDQNQD-256G-1001 238.5G
+nvme2n1 disk CT2000P5PSSD8                   1.8T
+nvme1n1 disk WD_BLACK SN850X 2000GB          1.8T

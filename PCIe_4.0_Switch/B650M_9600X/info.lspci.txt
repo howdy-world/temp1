@@ -1,0 +1,45 @@
++ sudo lspci -tv
+-[0000:00]-+-00.0  Advanced Micro Devices, Inc. [AMD] Device 14d8
+           +-00.2  Advanced Micro Devices, Inc. [AMD] Device 14d9
+           +-01.0  Advanced Micro Devices, Inc. [AMD] Device 14da
+           +-01.1-[01-0f]----00.0-[02-0f]--+-00.0-[03-08]----00.0-[04-08]--+-10.0-[05]----00.0  Sandisk Corp WD Black SN770 / PC SN740 256GB / PC SN560 (DRAM-less) NVMe SSD
+           |                               |                               +-14.0-[06]----00.0  Sandisk Corp WD Black SN850X NVMe SSD
+           |                               |                               +-18.0-[07]----00.0  Micron/Crucial Technology P5 Plus NVMe PCIe SSD
+           |                               |                               \-1c.0-[08]----00.0  Solidigm P44 Pro NVMe SSD [Hollywood Beach]
+           |                               +-04.0-[09-0e]----00.0-[0a-0e]--+-00.0-[0b]----00.0  Samsung Electronics Co Ltd NVMe SSD Controller PM9A1/PM9A3/980PRO
+           |                               |                               +-04.0-[0c]----00.0  Samsung Electronics Co Ltd NVMe SSD Controller PM9A1/PM9A3/980PRO
+           |                               |                               +-08.0-[0d]----00.0  Samsung Electronics Co Ltd NVMe SSD Controller PM9A1/PM9A3/980PRO
+           |                               |                               \-0c.0-[0e]----00.0  Samsung Electronics Co Ltd NVMe SSD Controller PM9A1/PM9A3/980PRO
+           |                               \-1c.0-[0f]----00.0  Broadcom / LSI PEX880xx PCIe Gen 4 Switch
+           +-02.0  Advanced Micro Devices, Inc. [AMD] Device 14da
+           +-02.1-[10-1c]----00.0-[11-1c]--+-00.0-[12]--
+           |                               +-01.0-[13]----00.0  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller
+           |                               +-02.0-[14]----00.0  Realtek Semiconductor Co., Ltd. Device b851
+           |                               +-03.0-[15]--
+           |                               +-04.0-[16]--
+           |                               +-05.0-[17]--
+           |                               +-06.0-[18]--
+           |                               +-07.0-[19]--
+           |                               +-08.0-[1a]--
+           |                               +-0c.0-[1b]----00.0  Advanced Micro Devices, Inc. [AMD] 600 Series Chipset USB 3.2 Controller
+           |                               \-0d.0-[1c]----00.0  Advanced Micro Devices, Inc. [AMD] 600 Series Chipset SATA Controller
+           +-03.0  Advanced Micro Devices, Inc. [AMD] Device 14da
+           +-04.0  Advanced Micro Devices, Inc. [AMD] Device 14da
+           +-08.0  Advanced Micro Devices, Inc. [AMD] Device 14da
+           +-08.1-[1d]--+-00.0  Advanced Micro Devices, Inc. [AMD/ATI] Device 13c0
+           |            +-00.1  Advanced Micro Devices, Inc. [AMD/ATI] Rembrandt Radeon High Definition Audio Controller
+           |            +-00.2  Advanced Micro Devices, Inc. [AMD] Family 19h PSP/CCP
+           |            +-00.3  Advanced Micro Devices, Inc. [AMD] Device 15b6
+           |            +-00.4  Advanced Micro Devices, Inc. [AMD] Device 15b7
+           |            \-00.6  Advanced Micro Devices, Inc. [AMD] Family 17h/19h HD Audio Controller
+           +-08.3-[1e]----00.0  Advanced Micro Devices, Inc. [AMD] Device 15b8
+           +-14.0  Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller
+           +-14.3  Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge
+           +-18.0  Advanced Micro Devices, Inc. [AMD] Device 14e0
+           +-18.1  Advanced Micro Devices, Inc. [AMD] Device 14e1
+           +-18.2  Advanced Micro Devices, Inc. [AMD] Device 14e2
+           +-18.3  Advanced Micro Devices, Inc. [AMD] Device 14e3
+           +-18.4  Advanced Micro Devices, Inc. [AMD] Device 14e4
+           +-18.5  Advanced Micro Devices, Inc. [AMD] Device 14e5
+           +-18.6  Advanced Micro Devices, Inc. [AMD] Device 14e6
+           \-18.7  Advanced Micro Devices, Inc. [AMD] Device 14e7
